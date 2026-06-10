@@ -4,7 +4,7 @@ import "./globals.css";
 import Link from "next/link";
 import LogoutButton from "../components/LogoutButton";
 import { getServerSession } from "next-auth";
-import { authOptions } from "@/app/api/auth/[...nextauth]/route";
+import { authOptions } from "@/lib/auth";
 import Image from "next/image";
 import Provider from "@/components/SessionProvider";
 
